@@ -1,0 +1,40 @@
+.Card {
+  width: 380px;
+  background-color: var(--darkgrey);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: var(--white);
+}
+p {
+  font-size: 14px;
+  padding-bottom: 0.7rem;
+}
+.Button {
+  display: grid;
+  align-items: center;
+  gap: 0.8rem;
+  border: none;
+}
+button {
+  background-color: var(--grey);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 6rem;
+  border-radius: 10px;
+}
+.Location {
+  color: var(--green);
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.CardImg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0.5rem;
+}
